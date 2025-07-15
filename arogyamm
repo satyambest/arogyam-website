@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arogyam | Sukham Sampadam</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f8fcfb;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    .logo {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 20px 0 10px;
+      color: #2c3e50;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .tagline {
+      font-size: 1.3em;
+      color: #5c6b73;
+      font-style: italic;
+      margin-bottom: 30px;
+    }
+
+    nav {
+      background-color: #2e86ab;
+      width: 100%;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 40px 20px;
+      text-align: center;
+      max-width: 800px;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <img src="WhatsApp Image 2025-07-14 at 18.51.03.jpeg" alt="Arogyam Logo" class="logo">
+    <h1>AROGYAM</h1>
+    <p class="tagline">Sukham Sampadam | Peace is wealth</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">WellBeing India</a></li>
+      <li><a href="#">MindMitra</a></li>
+      <li><a href="#">RedAlert</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Area -->
+  <main>
+    <h2>Welcome to Arogyam</h2>
+    <p>
+      Arogyam is a youth-driven initiative focused on holistic well-being—mental, emotional, physical, and societal. 
+      Through projects like <strong>MindMitra</strong>, <strong>RedAlert</strong>, and <strong>WellBeing India</strong>,
+      we aim to bridge awareness and action using technology, compassion, and youth power.
+    </p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Arogyam. All rights reserved.
+  </footer>
+
+</body>
+</html>
